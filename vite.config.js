@@ -12,8 +12,5 @@ export default defineConfig ({
   plugins: [
       vue(),
       autoImportPlugin('vite')
-  ],
-  build: {
-    target: 'es2015'
-  }
+  ]
 })
