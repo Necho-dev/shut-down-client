@@ -1,0 +1,20 @@
+{
+  "name": "shut-down-client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@opentiny/vue": "^3.21.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@opentiny/unplugin-tiny-vue": "^0.0.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.5"
+  }
+}
